@@ -1,0 +1,12 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/2018sher
+/imgList
+/uploads
+/uploads2
+yarn.lock
+webpack.config.js
+index.html
+package_uv.json

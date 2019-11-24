@@ -1,0 +1,47 @@
+{
+  "name": "beauty-marquee",
+  "version": "1.0.4",
+  "main": "./index.js",
+  "description": "useful and beautiful marquee for your project",
+  "scripts": {
+    "build": "webpack -p",
+    "test": "webpack --mode=development",
+    "start": "webpack --mode=development --watch",
+    "eject": "react-scripts eject"
+  },
+  "author": "WreewanMorhee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WreewanMorhee/BeautyMarquee"
+  },
+  "keywords": [
+    "marquee",
+    "show message",
+    "beautiful",
+    "repeatly message"
+  ],
+  "homepage": "https://github.com/WreewanMorhee/BeautyMarquee",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-merge": "^4.2.1",
+    "webpack-notifier": "^1.8.0"
+  },
+  "dependencies": {
+    "exif-js": "^2.3.0",
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.0"
+  }
+}
